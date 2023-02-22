@@ -1,6 +1,3 @@
 # hello-world
-My first website from scratch for Code Fellows
-
-Making more content
-
-Making some changes again 
+Updating to use for my made from scratch website
+ 
