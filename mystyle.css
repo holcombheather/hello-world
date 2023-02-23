@@ -90,6 +90,7 @@ blockquote {
 
 .section1 {
     background-color: white;
+    height: 200px;
     margin: 0px;
     padding: 40px;
     width: 100%;
@@ -130,12 +131,12 @@ blockquote {
     display: inline-block;
     align-items: center;
     align-content: center;
-    align: center;
+    box-align: center;
 }
 
 article img {
     width: 100%;
-    align: center; 
+    box-align: center; 
     display: inline-flex; 
 
 }
@@ -143,15 +144,15 @@ article img {
 .section4 img {
     height: 50%;
     width: 50%;
-    align: left;
+    box-align: left;
     display: inline;
 }
 
 header img {
-    height: 20%;
-    width: 20%; 
-    display:inline; 
-    align: left;
+    height: 15%;
+    width: 15%; 
+    box-align: left;
+    display: inline;
     margin: 0;
     padding: 0; 
 }
