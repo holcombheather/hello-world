@@ -1,0 +1,179 @@
+
+body {
+    color: #87a0a6
+}
+
+header {
+    color:#c8a287;
+    text-align: left;
+    display: inline;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;  
+}
+
+nav li {
+    float: right;
+    border-right: 1px solid #c8a287; 
+}
+
+nav li a {
+    display: block;
+    color: #c8a287;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #30291f;
+    width: 100%;
+    text-align: left; 
+}
+
+h3 {
+    color: #30291f;
+    text-align: center;
+}
+
+h4 {
+    color: #30291f;
+}
+
+h6 {
+    color: #87a0a6;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    color:#87a0a6
+}
+
+#img1 {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: inline;
+}
+
+ul {
+    display: inline; 
+    padding: 10px;
+    margin: 10px;
+}
+
+li {
+    color: #30291f;
+    padding: 14px 16px;
+}
+
+blockquote {
+    color: #30291f;
+    text-align: left;
+    width: 100%;
+    display: inline; 
+    background-color: rgba(207,180,172,0.15);
+    padding: 20px;
+}
+
+.section1 {
+    background-color: white;
+    margin: 0px;
+    padding: 40px;
+    width: 100%;
+}
+
+.section2 {
+    background-color:#87a0a6
+}
+
+.section3 {
+    background-color: #fffbf5;
+    margin: 0px;
+    padding: 40px;
+    display: inline-block; 
+    width: 100%;
+    align-items: center;
+}
+
+.section4 {
+    background-color:rgba(207,180,172,0.3);
+    margin: 0px;
+    padding: 40px;
+    width: 100%;
+    display: inline-block;
+}
+
+.section5 {
+    background-color: rgba(135,160,166,0.7);
+    color: #30291f;
+    margin: 0px;
+    padding: 40px;
+    width: 100%;
+    display: inline-block;
+}
+
+.offerings {
+    width: 33%;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    align: center;
+}
+
+article img {
+    width: 100%;
+    align: center; 
+    display: inline-flex; 
+
+}
+
+.section4 img {
+    height: 50%;
+    width: 50%;
+    align: left;
+    display: inline;
+}
+
+header img {
+    height: 20%;
+    width: 20%; 
+    display:inline; 
+    align: left;
+    margin: 0;
+    padding: 0; 
+}
+
+.button {
+    background-color: #87a0a6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    border-radius: 20%;
+}
+
+button {
+    border-style: none;
+    padding: 14px 25px;
+}
+
+footer {
+    background-image: url(images/coffee_hand_darkbackground.svg); 
+    color: #fffbf5; 
+    width: 100%;
+    text-align: center;
+}

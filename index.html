@@ -2,75 +2,78 @@
 <html lang="en-US">
     <head>
             <meta charset="utf-8" />
-            <title>102 Coffee Shop</title>
-            <link rel="stylesheet" href="mystyle.css"
+            <title>102 coffee shop</title>
+            <link rel="stylesheet" href="mystyle.css">
+            <script src="script.js"></script>
     </head>
     <body>
         <header>
-            <img src="images/102coffeelogo_brown_transparent.svg" alt="Logo with simple coffee cup illustration with 102 Coffee Underneath" />
+            <img src="images/102coffeelogo_brown_transparent.svg" alt="Logo with simple coffee cup illustration with 102 Coffee Underneath"/>
             <nav>
-                <a>shop</a>
-                <a>roast</a>
-                <a>about</a>
+                <ul>
+                    <li><a>shop</a></li>
+                    <li><a href="https://jcleyva.github.io/hello-world/">roast</a></li>
+                    <li><a>about</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <section>
+            <section class="section1">
                 <h1>102 coffee</h1>
                 <p>We believe that coffee is more than just a drink – it's a way of life. Join us and experience the dedication that goes into every cup.</p>
-                <button>visit us</button>
+                <a class="button" href="https://www.google.com/maps/">visit us</a>
             </section>
             
 
-            <section>
-                <img src="images/coffee_shop_exterior.svg" alt="Airy calming exterior of a modern coffee shop" />
+            <section class="section2">
+                <img id="img1" src="images/coffee_shop_exterior.svg" alt="Airy calming exterior of a modern coffee shop"/>
             </section>
 
 
-            <section>
-                <article>
-                    <img src="images/coffee_circle.svg" alt="Iced coffee" />
+            <section class="section3">
+                <article id="c" class="offerings">
+                    <img src="images/coffee_circle.svg" alt="Iced coffee"/>
                     <h3>coffee</h3>
-                    <p>Sourced from the highest quality beans, our skilled baristas take great care in crafting each cup.</p>
+                    <h6>Sourced from the highest quality beans, our skilled baristas take great care in crafting each cup.</h6>
                 </article>
 
-                <article>
-                    <img src="images/food_circle.svg" alt="Tasty pastry on wooden tray" />
+                <article id="f" class="offerings">
+                    <img src="images/food_circle.svg" alt="Tasty pastry on wooden tray"/>
                     <h3>food</h3>
-                    <p>Indulge in our freshly baked pastries and light bites, perfectly paired with our delicious coffee blends.</p>
+                    <h6>Indulge in our freshly baked pastries and light bites, perfectly paired with our delicious coffee blends.</h6>
                 </article>
 
-                <article>
-                    <img src="images/vibes.svg" alt="Cafe table and chair with airy calming design aesthetic" />
+                <article id="v" class="offerings">
+                    <img src="images/vibes.svg" alt="Cafe table and chair with airy calming design aesthetic"/>
                     <h3>vibes</h3>
-                    <p>Cozy and welcoming atmosphere provides the perfect spot to catch up with friends, read, or simply enjoy the moment.</p>
+                    <h6>Cozy and welcoming atmosphere provides the perfect spot to catch up with friends, read, or simply enjoy the moment.</h6>
                 </article>
 
             </section>
 
 
-            <section>
+            <section class="section4">
                 <img src="images/barista.svg" alt="Barista making coffee">
                 <blockquote>"102 Coffee is a must-visit for coffee lovers in LA. Their expertly crafted blends and cozy atmosphere make for an unforgettable coffee experience." - LA Magazine, Feb 2023 Issue</blockquote>
             </section>
 
-            <section>
+            <section class="section5">
                 <h4>Opt-in</h4>
                     <ul>
                         <li><input type="checkbox" name=? value=?>Marketing Emails</li>
                         <li><input type="checkbox" name=? value=?>News & Update Emails</li>
                         <li><input type="checkbox" name=? value=?>Production Process Emails</li>
                     </ul>
-                    <button>submit</button>
+                    <button class="button">submit</button>
             </section>
         </main>
 
 
         <footer>
-            <img src="images/coffee_hand_darkbackground.svg" alt="Hand holding coffee cup filled with drip coffee">
-            <a>Instagram</a>
-            <h4>powered by code fellows</h4>
-            <h4>designed by heather holcomb</h4>
+            <!--<img id="imgf" src="images/coffee_hand_darkbackground.svg" alt="Hand holding coffee cup filled with drip coffee">-->
+            <a href="https://instagram.com">instagram</a>
+            <h6>powered by code fellows</h6>
+            <h6>designed by heather holcomb</h6>
         </footer>
     </body>
 </html>
