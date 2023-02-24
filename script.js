@@ -36,11 +36,12 @@ function greeting(){
     // prompt("Hi " + userName + "! Do you love coffee?")
     document.write("Hello, " + userName + "! ");
     document.write("Welcome to your new favorite place.");
-    // return userName;
+    return userName;
 }
 
 function lovesCoffee(){
-    let coffeeChoice = prompt("Hi " + userName + ". Do you love coffee? Type yes or no");
+    let coffeeChoice = prompt("Do you love coffee? Type yes or no");
+    // let coffeeChoice = prompt("Hi " + userName + ". Do you love coffee? Type yes or no");
     console.log(coffeeChoice);
     
     if(coffeeChoice == 'yes'){
