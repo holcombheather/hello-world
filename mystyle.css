@@ -112,8 +112,6 @@ blockquote {
     font-size:x-large;
     margin: 20px;
     font-family: sans-serif;
-    transform: translate(-50%; -50%);
-    float: center;
 }
 
 .section1 {
@@ -168,7 +166,7 @@ blockquote {
     position: absolute;
     top: 20%;
     left: 5%;
-    transform: translate(-50%; -50%);
+    transform: translate(-50%, -50%);
 }
 
 .offerings {

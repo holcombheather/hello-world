@@ -1,14 +1,14 @@
-//Lab06: 3 dynamic components
+// //Lab06: 3 dynamic components
 
 // let myName = "you"; 
 // alert("oh hello " + myName + "!");
 
 
 // let name = prompt("Your name:", "");
-// document.write("Hello ", name + ".");
+// document.write("Hello ", myName + ".");
 
 
-// console.log("Hello, " + name + ". I am still learning, so no judgement here.")
+// console.log("Hello, " + myName + ". I am still learning, so no judgement here.")
 
 // let email = prompt("Please correct your e-mail address:", "awesome@you.co");
 // document.write("Your e-mail address is ", email + ".");
@@ -30,13 +30,14 @@
 
 
 
-//Lab07: Refactoring code with functions
+// Lab07: Refactoring code with functions
 
 
 function greeting(){
     let userName = prompt("Welcome to 102 coffee! What is your name?");
     console.log(userName);
     document.write("Hello, " + userName + "! ");
+   
 
     let coffeeChoice = prompt("Hi " + userName + "! Do you love coffee? Type yes or no");
     console.log(coffeeChoice);
@@ -56,7 +57,7 @@ function greeting(){
         document.write("You don't love coffee but you'll love us. Opt-in to our emails and get a free beverage of your choice on us!");
     } else {
         document.write("We're not sure if you like coffee but we know you'll like us!")
-}   
+
         function getUserInput() {
             let maxAttempts = 3; // Maximum number of attempts
             let attempts = 1; // Counter for the number of attempts
@@ -83,30 +84,33 @@ function greeting(){
           if (userInput !== null) {
             alert(`You entered: ${userInput}`);
           }
+        }
     } 
     
 
-greeting();
+    greeting();
 
 
-// function coffeeCups(){
-//     let coffeePic = parseInt(prompt("How many cups of coffee have you had today? Pick a number between 0 and 10"));
-//     console.log ("user had " + coffeePic + "cups of coffee");
-
-//     if (coffeePic <= 10){
-//         alert("Nice");
-//         console.log("user had" + coffeePic + "cups of coffee");
-
-//         for (let i = 0; i <= coffeePic; i++){
-//             document.write(img src="/Users/heathergallagher/projects/courses/code-102/hello-world/images/102coffeelogo_bluebackground.svg" height="20px" width="20px");
-//         }
+function coffeeCups(){
+    let coffeePic = parseInt(prompt("How many cups of coffee have you had today? Pick a number between 0 and 10"));
+    console.log ("user had " + coffeePic + "cups of coffee");
+    if (coffeePic <= 10){
+        alert("Nice!");
+        console.log("user had" + coffeePic + "cups of coffee");
+    for (let i = 0; i < coffeePic; i++){
+            document.write('<img src="images/coffee_logo_background.png" height="20px" width="20px">');
+        }
         
-//         return coffeeCups;
-//     } else if (coffeePic > '10'){
-//         alert("Whoa! That's a lot! For the sake of this conversation, let's just pick a number between 0 and 10.");
-//         console.log("user had" + coffeePic + "cups of coffee");
-//         coffeeCups()
-//     }
-// }
+        return coffeeCups;
+    } else if (coffeePic > 10){
+        alert("Whoa! That's a lot! For the sake of this conversation, let's just pick a number between 0 and 10.");
+        console.log("user had" + coffeePic + "cups of coffee");
+        coffeeCups()
+    }
+}
 
-// coffeeCups();
+coffeeCups();
+
+
+
+
