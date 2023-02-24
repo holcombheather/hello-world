@@ -14,6 +14,18 @@ console.log("Hello, " + name + ". I am still learning, so no judgement here.")
 let email = prompt("Please correct your e-mail address:", "awesome@you.co");
 document.write("Your e-mail address is ", email + ".");
 
+let coffeeChoice = prompt("Do you like coffee? Type yes or no");
+console.log(coffeeChoice);
+
+if(coffeeChoice == 'yes'){
+    document.write("We like coffee too! Welcome to your new favorite place!");
+    let emailList = prompt("Want to join our mailing list and get a free cup on us?");   
+} else if (coffeeChoice == 'no'){
+    document.write("We have great non-coffee drinks too!");
+} else {
+    document.write("I'm not sure what you picked...but you're still welcome here.");
+}
+
 
 // 4 ways to declare a variable (create one)
 
