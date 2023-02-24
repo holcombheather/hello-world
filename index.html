@@ -4,13 +4,13 @@
             <meta charset="utf-8" />
             <title>102 coffee shop</title>
             <link rel="stylesheet" href="mystyle.css">
-            <script src="script.js"></script>
+            <!--<script src="script.js"></script>-->
     </head>
     <body>
         <header>
-            <img src="images/102coffeelogo_brown_transparent.svg" alt="Logo with simple coffee cup illustration with 102 Coffee Underneath"/>
+            <img id="logo" src="images/102coffeelogo_brown_transparent.svg" alt="Logo with simple coffee cup illustration with 102 Coffee Underneath"/>
             <nav>
-                <ul>
+                <ul class="topnav">
                     <li><a href="https://jcleyva.github.io/hello-world/">shop</a></li>
                     <li><a href="https://jcleyva.github.io/hello-world/">roast</a></li>
                     <li><a href="https://jcleyva.github.io/hello-world/">partner</a></li>
@@ -19,6 +19,7 @@
         </header>
         <main>
             <section class="section1">
+                <script src="script.js"></script>
                     <h1>102 coffee</h1>
                     <p>We believe that coffee is more than just a drink – it's a way of life. Join us and experience the dedication that goes into every cup.</p>
                     <a class="button" href="https://www.google.com/maps/">visit us</a>
@@ -58,28 +59,31 @@
                         <img id="barista" src="images/barista.svg" alt="Barista making coffee">
                     </div>
                     <div class="text">
-                        <blockquote>"102 Coffee is a must-visit for coffee lovers in LA. Their expertly crafted blends and cozy atmosphere make for an unforgettable coffee experience." <br>- LA Magazine, Feb 2023 Issue</br></blockquote>
+                        <blockquote>"102 Coffee is a must-visit for coffee lovers in LA. Their expertly crafted blends and cozy atmosphere make for an unforgettable coffee experience." <br> <em> - LA Magazine, Feb 2023 Issue</em> </br></blockquote>
                     </div>
                 </div>
             </section>
 
             <section class="section5">
-                <h4>Opt-in</h4>
-                    <ul>
-                        <li><input type="checkbox" name=? value=?>Marketing Emails</li>
-                        <li><input type="checkbox" name=? value=?>News & Update Emails</li>
-                        <li><input type="checkbox" name=? value=?>Production Process Emails</li>
-                    </ul>
-                    <button class="button">submit</button>
-            </section>
+                <div class="hero-image">
+                    <div class="hero-text">
+                        <h4>Opt-in</h4>
+                        <ul>
+                            <li><input type="checkbox" name=? value=?>Marketing Emails</li>
+                            <li><input type="checkbox" name=? value=?>News & Update Emails</li>
+                            <li><input type="checkbox" name=? value=?>Production Process Emails</li>
+                        </ul>
+                        <button class="button">submit</button>
+                </div>
+                </div>
+                </section>
         </main>
 
 
         <footer>
-            <!--<img id="imgf" src="images/coffee_hand_darkbackground.svg" alt="Hand holding coffee cup filled with drip coffee">-->
-            <a href="https://instagram.com">instagram</a>
-            <h5>powered by code fellows</h5>
-            <h5>designed by heather holcomb</h5>
+            <h5><a href="https://instagram.com">instagram</a></h5>
+            <h5>powered by <a href="https://www.codefellows.org/">code fellows</a></h5>
+            <h5>designed by <a href="https://github.com/holcombheather">heather holcomb</a></h5>
         </footer>
     </body>
 </html>
