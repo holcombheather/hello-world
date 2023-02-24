@@ -154,7 +154,7 @@ blockquote {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/coffee_hand_darkbackground.svg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/coffee_darkback_hero.jpg); 
     background-color: #fffbf5;
     height: 400px;
     background-position: center;

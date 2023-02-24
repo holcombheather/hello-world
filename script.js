@@ -65,9 +65,7 @@ function greeting(){
               // Check if the input is either 'yes' or 'no'
               return input.toLowerCase() === 'yes' || input.toLowerCase() === 'no';
             }
-          
             let userInput = prompt("Please enter 'yes' or 'no': ");
-          
             while (!isValidInput(userInput)) {
               if (attempts >= maxAttempts) {
                 alert(`You have exceeded the maximum number of attempts (${maxAttempts}).`);
@@ -77,22 +75,38 @@ function greeting(){
               userInput = prompt(`Please enter 'yes' or 'no' (attempt ${attempts}): `);
               attempts++;
             }
-          
             return userInput.toLowerCase();
           }
-          
           // Call the getUserInput function to get user input
-          let userInput = getUserInput();
-          
+          let userInput = getUserInput(); 
           // Do something with the valid user input
           if (userInput !== null) {
             alert(`You entered: ${userInput}`);
           }
-
-
-
     } 
     
 
-
 greeting();
+
+
+// function coffeeCups(){
+//     let coffeePic = parseInt(prompt("How many cups of coffee have you had today? Pick a number between 0 and 10"));
+//     console.log ("user had " + coffeePic + "cups of coffee");
+
+//     if (coffeePic <= 10){
+//         alert("Nice");
+//         console.log("user had" + coffeePic + "cups of coffee");
+
+//         for (let i = 0; i <= coffeePic; i++){
+//             document.write(img src="/Users/heathergallagher/projects/courses/code-102/hello-world/images/102coffeelogo_bluebackground.svg" height="20px" width="20px");
+//         }
+        
+//         return coffeeCups;
+//     } else if (coffeePic > '10'){
+//         alert("Whoa! That's a lot! For the sake of this conversation, let's just pick a number between 0 and 10.");
+//         console.log("user had" + coffeePic + "cups of coffee");
+//         coffeeCups()
+//     }
+// }
+
+// coffeeCups();
