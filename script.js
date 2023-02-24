@@ -1,5 +1,19 @@
-let myName = "Heather"; 
-alert("Welcome to my website!" + myName);
+//Lab06: 3 dynamic components
+
+let myName = "you"; 
+alert("oh hello " + myName + "!");
+
+
+let name = prompt("Your name:", "");
+document.write("Hello ", name + ".");
+
+
+console.log("Hello, " + name + ". I am still learning, so no judgement here.")
+
+
+let email = prompt("Please correct your e-mail address:", "awesome@you.co");
+document.write("Your e-mail address is ", email + ".");
+
 
 // 4 ways to declare a variable (create one)
 
@@ -61,5 +75,4 @@ alert("Welcome to my website!" + myName);
 
 function greeting(){
     let userName = prompt("Enter your user name");
-
 }
